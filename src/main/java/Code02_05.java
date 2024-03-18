@@ -4,6 +4,6 @@ public class Code02_05 {
         int b = 200;
 
         int c = a + b;
-        System.out.println(a+" +" +b+" = "+c);
+        System.out.println(a+" + "+b+" = "+c);
     }
 }
