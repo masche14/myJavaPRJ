@@ -8,6 +8,6 @@ public class Study0325_1 {
         int c = str.indexOf("\"");
         int d = str.indexOf("/", c);
         System.out.println(str.substring(c+1, d).trim());
-
+        System.out.println(str.split("\"")[1].split("/")[0].trim());
     }
 }
