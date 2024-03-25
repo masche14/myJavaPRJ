@@ -3,7 +3,7 @@ public class Code04_13 {
         String str = " 한글 ABCD efgh ";
         String cutStr="";
         String upper="";
-        String lower=""
+        String lower="";
 
         upper = str.toUpperCase();
         lower = str.toLowerCase();
