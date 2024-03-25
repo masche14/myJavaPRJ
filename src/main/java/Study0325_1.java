@@ -5,7 +5,9 @@ public class Study0325_1 {
         int b;
 //        a = str.indexOf("127");
         b = str.indexOf("-");
-        System.out.println(str.substring(0, b).trim());
+        int c = str.indexOf("\"");
+        int d = str.indexOf("/", c);
+        System.out.println(str.substring(c+1, d).trim());
 
     }
 }
