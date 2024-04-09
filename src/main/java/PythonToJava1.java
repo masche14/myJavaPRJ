@@ -5,8 +5,8 @@ public class PythonToJava1 {
         String host = "localhost";
         String port = "3306"; // MySQL 포트 번호
         String user = "root";
-        String password = "thanatus139";
-        String database = "sooni_group";
+        String password = "password";
+        String database = "db";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // MySQL JDBC 드라이버 로드
