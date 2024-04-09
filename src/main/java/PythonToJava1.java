@@ -2,7 +2,7 @@ import java.sql.*;
 import java.util.Scanner;
 public class PythonToJava1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // 주석
 
         String host = scanner.nextLine();
         String port = scanner.nextLine(); // MySQL 포트 번호
