@@ -4,7 +4,7 @@ public class PythonToJava1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String host = scanner.nextLine();
+        String host = scanner.nextLine(); // 주석
         String port = scanner.nextLine(); // MySQL 포트 번호
         String user = scanner.nextLine();
         String password = scanner.nextLine();
