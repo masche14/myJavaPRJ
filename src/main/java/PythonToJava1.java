@@ -2,18 +2,20 @@ import java.sql.*;
 import java.util.Scanner;
 public class PythonToJava1 {
     public static void main(String[] args) {
-        String host = "localhost";
-        String port = "3306"; // MySQL 포트 번호
-        String user = "root";
-        String password = "thanatus139";
-        String database = "sooni_group";
+        Scanner scanner = new Scanner(System.in);
+
+        String host = scanner.nextLine();
+        String port = scanner.nextLine(); // MySQL 포트 번호
+        String user = scanner.nextLine();
+        String password = scanner.nextLine();
+        String database = scanner.nextLine();
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // MySQL JDBC 드라이버 로드
             Connection connection = DriverManager.getConnection("jdbc:mysql://" + host + "/" + database, user, password);
             Statement statement = connection.createStatement();
 
-            Scanner scanner = new Scanner(System.in);
+
             while (true) {
                 System.out.print("원하시는 작업을 선택하세요 <0> 취소 <1> 비제이 추가 <2> 비제이 삭제 <3> 정보 수정 : ");
                 int process = scanner.nextInt();
