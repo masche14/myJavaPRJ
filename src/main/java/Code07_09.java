@@ -7,9 +7,9 @@ class Rabbit1 {
         shape = "토끼";
     }
 
-    void setPosition(int x, int y){
-        this.xPos = x;
-        this.yPos = y;
+    void setPosition(int xPos, int yPos){
+        this.xPos = xPos;
+        this.yPos = yPos;
 
         System.out.printf("xPos : %d / yPos : %d \n", this.xPos, this.yPos);
     }
