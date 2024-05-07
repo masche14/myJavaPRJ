@@ -1,5 +1,5 @@
 class Rabbit {
-    String shpae;
+    String shape;
     int xPos;
     int yPos;
 
