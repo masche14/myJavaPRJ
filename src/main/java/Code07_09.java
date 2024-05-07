@@ -3,8 +3,8 @@ class Rabbit1 {
     int xPos;
     int yPos;
 
-    Rabbit1(String value){
-        shape = value;
+    Rabbit1(String shape){
+        this.shape = shape;
     }
 
     void setPosition(int xPos, int yPos){
